@@ -21,4 +21,4 @@ async def init_db():
 
 @app.get("/")
 async def home():
-  return RedirectResponse(url="/event/")
+  return {"Hello": "World"}
